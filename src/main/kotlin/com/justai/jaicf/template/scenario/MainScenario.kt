@@ -55,8 +55,7 @@ object MainScenario : Scenario() {
 
         fallback {
             reactions.sayRandom(
-                "Sorry, I didn't get that...",
-                "Sorry, could you repeat please?"
+                "What?", "Sorry?"
             )
         }
     }
